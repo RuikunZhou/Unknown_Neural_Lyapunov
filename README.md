@@ -19,4 +19,4 @@ This algorithm is made up of two neural netowrks and an SMT solver. The first on
 The training part updates the parameters by iteratively minimizing the Lyapunov risk, a cost function measures the degree of violation of the Lyapunov conditions and the verifying part periodically searches counterexample state vectors and adds them back to the training set for the next iteration. This procedure provides flexibility to adjust the cost function for learning additional properties of controllers and Lyapunov functions. In examples we add a tuning term to maximize the region of attractions. 
 
 ## Example
-- [Van der Pol oscillator] (https://github.com/RuikunZhou/Unknown_Neural_Lyapunov/blob/main/Van_der_Pol.ipynb)
+- [Van der Pol oscillator](https://github.com/RuikunZhou/Unknown_Neural_Lyapunov/blob/main/Van_der_Pol.ipynb)
