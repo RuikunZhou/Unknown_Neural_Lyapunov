@@ -5,6 +5,9 @@ This repository contains the code for the paper: Neural Lyapunov control of unkn
 - [dReal4: v4.19.02.1](https://github.com/dreal/dreal4)
 - [PyTorch: 1.2.0](https://pytorch.org/get-started/locally/)
 
+### To calculate the Lipschitz constant of neural networks
+- [LipSDP](https://github.com/arobey1/LipSDP)
+
 ## How it works
 This algorithm is made up of two neural netowrks and an SMT solver. The first neural network is responsible for learning the unknown dynamics. The second neural network aims to identify a valid Lyapunov function and a provably stabilizing nonlinear controller. The SMT solver then verifies that the candidate Lyapunov function indeed satisfies the Lyapunov conditions.
 
